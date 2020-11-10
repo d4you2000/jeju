@@ -1,0 +1,63 @@
+<h1><a href="jeju index.html">제주도 여행</a></h1>
+  <div id="grid">
+    <ol>
+      <li><a href="jeju 1.html" >1일차</a></li>
+      <li><a href="jeju 2.html" >2일차</a></li>
+      <li><a href="jeju 3.html" id="active">3일차</a></li>
+    </ol>
+  <div id="article">
+      <h2>자전거 하이킹</h2>
+      <p></p>
+      <p>
+        <h2>도착항공</h2>
+        <p>
+      12월6일(일) 19:25 KE1266
+        </p>
+      </p>
+  </div>
+</div>
+<style>
+    @media (max-width: 800px) {
+      #grid {
+        display: block;
+      }
+      #grid ol {
+        border-right: none;
+      }
+      h1 {
+        border-bottm: none;
+      }
+     }
+
+    h1 {
+      font-size: 45px;
+      text-align: center;
+      border-bottom: 1px solid gray;
+      margin: 0px;
+      padding: 20px;
+        }
+    #grid ol {
+      margin: 0;
+      border-right: 1px solid gray;
+      width: 100px;
+      padding: 33px;
+        }
+    body {
+      margin: 0;
+    }
+    a {
+      color: black;
+      text-decoration: none;
+    }
+
+    #active {
+      color: red;
+    }
+    #grid {
+        display: grid;
+        grid-template-columns: 150px 1fr;
+    }
+    #article {
+      padding-left: 25px;
+    }
+</style>
